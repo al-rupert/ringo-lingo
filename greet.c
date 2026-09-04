@@ -9,6 +9,11 @@ int main(int argc, char *argv[])
   }
 
   char *name = argv[1];
-  printf("hii, %s. have a nice day!\n", name);
+
+  for (int i = 0; i < 100; i++)
+    {
+      printf("hiii %s, have a nice day!\n", name);
+    }
+  
   reurn 0;
 }
